@@ -11,7 +11,7 @@
 
 void setup() {
     Serial.begin(115200);
-    Dabble.begin("ESP32_RC_Car");  // Bluetooth name
+    Dabble.begin("Barcode_RC_Car");  // Bluetooth name
 
     pinMode(ENA, OUTPUT);
     pinMode(ENB, OUTPUT);
